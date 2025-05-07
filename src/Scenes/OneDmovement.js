@@ -103,7 +103,7 @@ class OneDmovement extends Phaser.Scene {
     this.load.audio('pepSound2', 'pepSound2.ogg');
     this.load.audio('laser2', 'laser2.ogg');
 
-    document.getElementById('description').innerHTML = '<h2>1D Movement Shooter<br>Space - Shoot<br>Absorb enemy bullets to protect the wildlife!<br>A - move left // D - move right</h2>'
+    document.getElementById('description').innerHTML = '<h2>1D Movement Shooter<h2><h1><br>Space - Shoot<br>Absorb enemy bullets to protect the wildlife!<br>A - move left // D - move right</h1>'
   }
 
   create() {
